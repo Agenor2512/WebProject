@@ -1,0 +1,108 @@
+@import url('https://fonts.cdnfonts.com/css/petit-formal-script');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  position: absolute;
+  top: -18px;
+  background-image: url("background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-image: url("banniere.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 120px;
+
+}
+
+.logo {
+  position: absolute;
+  top: 8px;
+  left: -5px;
+  width: 100px;
+  border-radius: 50px;
+  z-index: 1;
+}
+
+.ellipse {
+  position: absolute;
+  top: -1px;
+  left: -40px;
+  height: 135px;
+  width: 150px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  opacity: 70%;
+  transform: rotate(-23deg);
+}
+
+#liste {
+  list-style-type: none;
+  text-align: right;
+  padding: 10px
+}
+
+.lielements {
+  display: inline-block;
+}
+
+.liensListe {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background-color: brown;
+  text-decoration: none;
+  border-color: brown;
+  border-radius: 17px;
+  padding: 5px;
+}
+
+p {
+  font-family: "Petit Formal Script", cursive;
+  text-align: center;
+  font-size: 1.4em;
+  margin: 80px;
+}
+
+.decoPictures {
+    position: relative;
+    top: -20px;
+    left: 5px;
+}
+
+#burger, #quiche, #pizza {
+  width: 170px;;
+  height: 170px;
+}
+
+#burger {
+  position: absolute;
+  left: 400px;
+  border-radius: 15px;
+}
+
+#quiche {
+  position: absolute;
+  left: 680px;
+  border-radius: 15px;
+}
+
+#pizza {
+  position: absolute;
+  left: 955px;
+  border-radius: 15px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+}
