@@ -68,13 +68,17 @@ body{
 
 
 .p1{
+  position: absolute;
   font-family: "Petit Formal Script", cursive;
+  left: 40px;
+  top: 700px;
 }
 
 .p2{
+  position: absolute;
   font-family: "Petit Formal Script", cursive;
-  text-align: right;
-  top: -50px;
+  top: 950px;
+  right: 100px;
 }
 
 .légumes{
@@ -84,12 +88,14 @@ body{
   position: absolute;
   z-index: 3;
   bottom: -200px;
-  left: 800px;
+  left: 950px;
 }
 
 .légumes:hover{
   z-index: 4;
-  border: solid 10px #fff;
+  box-shadow: 0px 4px 4px #1c1a19;
+  width: 250px;
+  height: 250px;
 }
 
 .fruits{
@@ -104,7 +110,9 @@ body{
 
 .fruits:hover{
   z-index: 4;
-  border: solid 10px #fff;
+  box-shadow: 0px 4px 4px #1c1a19;
+  width: 350px;
+  height: 350px;
 }
 
 .oléagineux{
@@ -114,12 +122,14 @@ body{
   z-index: 1;
   position: absolute;
   right: 600px;
-  top: 600px;
+  top: 550px;
 }
 
 .oléagineux:hover{
   z-index: 4;
-  border: solid 10px #fff;
+  box-shadow: 0px 4px 4px #1c1a19;
+  width: 400px;
+  height: 400px;
 }
 
 
@@ -129,12 +139,14 @@ body{
     border-radius: 30px;
     position: absolute;
     right: 800px;
-    top: 700px;
+    top: 650px;
 }
 
 .légumineuses:hover{
   z-index: 4;
-  border: solid 10px #fff;
+  box-shadow: 0px 4px 4px #1c1a19;
+  width: 450px;
+  height: 450px;
 }
 
 .céréales{
@@ -143,18 +155,21 @@ body{
   border-radius: 30px;
   position: absolute;
   left: 600px;
-  top: 600px;
+  top: 550px;
 }
 
 .céréales:hover{
   z-index: 4;
-  border: solid 10px #fff;
+  box-shadow: 0px 4px 4px #1c1a19;
+  width: 300px;
+  height: 300px;
 }
 
 .pied-de-page a{
   color: #000;
   text-decoration: none;
-  margin: auto;
+  position: absolute;
+  left: 10px;
   bottom: 0px;
 
 }
