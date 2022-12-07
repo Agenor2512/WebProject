@@ -26,7 +26,6 @@ header {
   background-repeat: no-repeat;
   width: 100%;
   height: 120px;
-
 }
 
 .logo {
@@ -52,22 +51,26 @@ header {
 
 #liste {
   list-style-type: none;
-  text-align: right;
-  padding: 10px
+  width: 100px;
+  overflow: hidden;
 }
 
 .lielements {
   display: inline-block;
+  right: 0px;
+  top: 10px;
 }
 
 .liensListe {
   font-family: "Poppins", sans-serif;
   color: white;
+  height: 1.5em;
+  width: 100px;
   background-color: brown;
+  text-align: center;
   text-decoration: none;
   border-color: brown;
   border-radius: 17px;
-  padding: 5px;
 }
 
 .homeText {
@@ -88,11 +91,22 @@ header {
 }
 
 .decoPictures > img {
-    border-radius: 15px;
-    width: 170px;;
-    height: 170px;
-    margin-left: 50px;
-    margin-right: 50px;
+  border-radius: 15px;
+  width: 170px;;
+  height: 170px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.flex_row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex_column {
+  display: flex;
+  flex-direction: column;
 }
 
 .recipes {
@@ -103,6 +117,61 @@ header {
   width: 100%;
   height: 150px;
   margin-top: 40px;
+}
+
+.recipe_overview {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+}
+
+#butternut {
+  width: 195px;
+  height: 130px;
+  padding: 10px;
+  border-radius: 18px;
+}
+
+
+.values_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.values_bar {
+  box-sizing: border-box;
+  margin-left: 5px;
+
+  width: 88px;
+  height: 20px;
+
+  background: #D9D9D9;
+  border: 1px solid #000000;
+  border-radius: 12px;
+}
+
+.green_values_bar {
+  box-sizing: border-box;
+
+  height: 100%;
+
+  background: #8C924F;
+  border-radius: 12px;
+}
+
+.green_bar_80 {
+  width: 80%;
+}
+
+.green_bar_40 {
+  width: 40%;
+}
+
+.green_bar_60 {
+  width: 60%;
 }
 
 .linedeco {
