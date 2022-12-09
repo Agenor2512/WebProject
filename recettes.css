@@ -148,23 +148,31 @@ header {
   height: 130px;
 }
 
-/* #oeuf_courgette, #pizza_vege, #veggie_burger  {
-  width: 195px;
-  height: 130px;
-}
-
-#quiche_courgette {
-  width: 130px;
-  height: 140px;
-}
-
-#quiche_courgette_chevre {
-  width: 160px;
-  height: 130px;
-} */
-
 .lunch_name, .read_all_recipe {
   font-family: "Petit formal script";
+}
+
+.read_all_recipe {
+  text-decoration: none;
+  color: white;
+  border-color: black;
+  border-radius: 25px;
+  background: rgba(230, 144, 60, 1);
+  padding-left: 10px;
+  padding-right: 60px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.arrow_forward {
+  position: absolute;
+  left: 1200px;
+}
+
+.arrow_forward img {
+  padding-top: 5px;
+  padding-left: 10px;
+  width: 30px;
+  height: 30px;
 }
 
 .values_container {
@@ -222,15 +230,4 @@ header {
 
 .score {
   text-align: center;
-}
-
-.ellipse_arrow {
-  position: absolute;
-  width: 37px;
-  height: 36px;
-  left: 1273px;
-  top: 542px;
-  border-radius: 20px;
-  background: rgba(217, 217, 217, 0.8);
-  z-index: -1;
 }
