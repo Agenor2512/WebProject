@@ -1,10 +1,9 @@
 @import url('https://fonts.cdnfonts.com/css/petit-formal-script');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-
 html,body {
   min-width: 100% !important;
-  min-height: 1vw !important;
+  min-height: 100% !important;
   margin: 0px !important;
   padding: 0px !important;
 }
@@ -51,28 +50,42 @@ header {
 }
 
 #liste {
-  display: inline-block;
+  display: block;
   list-style-type: none;
-  width: 100px;
-  overflow: hidden;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  margin-right: 10px;
+}
+
+#liste:hover .lielements {
+  display: inline-block;
+  margin-right: -40px;
+}
+
+#liste .lielements:last-child {
+  display: inline-block !important;
+  margin: 0px !important;
+
+}
+
+#liste .lielements:last-child .liensListe {
+  background-color: #9F4D28;
+  padding-right: 10px !important;
 }
 
 .lielements {
-  right: 0px;
-  top: 10px;
+  display: none;
 }
 
 .liensListe {
-  display: inline-block;
-  font-family: "Poppins", sans-serif;
-  color: white;
-  height: 1.5em;
-  width: 100px;
-  background-color: brown;
-  text-align: center;
   text-decoration: none;
-  border-color: brown;
-  border-radius: 17px;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 40px;
+  background-color: #BC8369;
+  border-radius: 20px;
 }
 
 .homeText {
@@ -153,26 +166,29 @@ header {
 }
 
 .read_all_recipe {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 170px;
   text-decoration: none;
   color: white;
   border-color: black;
   border-radius: 25px;
   background: rgba(230, 144, 60, 1);
-  padding-left: 10px;
-  padding-right: 60px;
+  padding-left: 5px;
+  padding-right: 5px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.arrow_forward {
-  position: absolute;
-  left: 1200px;
+.read_all_recipe:hover {
+  background: rgba(240, 170, 60, 1);
+  transition: 0.2s;
 }
 
-.arrow_forward img {
-  padding-top: 5px;
-  padding-left: 10px;
-  width: 30px;
-  height: 30px;
+.read_all_recipe > img {
+  width: 40px;
+  height: 40px;
 }
 
 .values_container {
