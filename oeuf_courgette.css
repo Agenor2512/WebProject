@@ -1,5 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/petit-formal-script');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://db.onlinewebfonts.com/c/00ef7ea74404b45ce343c7d0b0968bfd?family=Secular+One');
 
 body {
   min-width: 100% !important;
@@ -89,8 +90,70 @@ header {
   border-radius: 20px;
 }
 
-.recipe {
+.all_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: "Poppins", sans-serif;
+  margin-top: 140px;
+  margin-left: 50px;
+}
+
+.ingredients_container {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-start;
+  margin-left: 30px;
+}
+
+.title {
+  font-family: "Secular One", sans-serif;
+}
+
+.ingredients {
+  list-style-type: square;
+
+}
+
+.ingredients_container img {
+  width: 180px;
+  height: 180px;
+  border-radius: 15px;
+  border: 3px solid;
+  border-color: white;
+}
+
+.recipe_container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.ingredients_container, .recipe_container {
+  flex: 1;
+  width: 80%;
+}
+
+.etape {
+  display: block;
+  color: white;
+  width: 70px;
+  padding: 5px;
+  text-align: center;
+  background: rgba(230, 144, 60, 1);
+  border-radius: 20px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50px;
+  margin-left: 10px;
+}
+
+footer a {
+  color: grey;
+  opacity: 90%;
 }
