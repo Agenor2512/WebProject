@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+  font-family: "Poppins";
+  background-image: url("img/papier.png");
+  background-size: cover;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+.sommaire {
+  text-align: justify;
+}
+
+.sommaire ul a{
+  text-decoration: none;
+  color: #000;
+}
+
+.sommaire ul{
+}
+
+@media only screen and (max-device-width: 375px) and (orientation: portrait)
+{
+  body{
+  font-family: "Poppins";
+  font-size: 12px;
+  background-image: url("img/papier.png");
+  background-size: cover;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.sommaire {
+  text-align: justify;
+  width: 100%;
+  font-size: 12px;
+  margin: 0;
+}
+
+.sommaire a{
+  text-decoration: none;
+  color: #000;
+}
+
+span{
+  position: relative;
+  left: 65px;
+}
+
+
+}
