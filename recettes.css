@@ -69,7 +69,7 @@ header {
 }
 
 #liste .lielements:last-child .liensListe {
-  background-color: #9F4D28;
+  background: rgba(159, 77, 40, 0.9);
   padding-right: 10px !important;
 }
 
@@ -84,7 +84,7 @@ header {
   padding: 5px;
   padding-left: 10px;
   padding-right: 40px;
-  background-color: #BC8369;
+  background: rgba(188, 131, 105, 0.9);
   border-radius: 20px;
 }
 
@@ -129,6 +129,7 @@ header {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  font-family: "Poppins", sans-serif;
   width: 100%;
   height: 150px;
   margin-top: 40px;
