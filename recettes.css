@@ -70,7 +70,7 @@ header {
 }
 
 #liste .lielements:last-child .liensListe {
-  background: rgba(159, 77, 40, 0.9);
+  background: rgba(159, 77, 40, 1);
   padding-right: 10px !important;
 }
 
@@ -163,6 +163,12 @@ header {
 
 .lunch_name, .read_all_recipe {
   font-family: "Petit formal script";
+}
+
+.text_and_picture_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .read_all_recipe {
@@ -266,6 +272,26 @@ footer a {
   opacity: 90%;
 }
 
-@media query {
+@media only screen and (min-width: 780px)
+and (orientation: portrait) {
+
+  .decoPictures {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+  }
+
+  .recipe_overview {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .text_and_picture_container {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 400px;
+  }
 
 }
