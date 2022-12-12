@@ -99,6 +99,8 @@ footer{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 40%;
+    border-radius: 10px;
 }
 
 h1{
@@ -113,10 +115,68 @@ h1{
     margin-right: auto;
 }
 
-.recette img{
-    width: 30%;
-    border-radius: 10px;
+table{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+table caption{
+    font-family: 'Petit Formal Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+table td{
+    font-family: 'Inter';
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    text-align: right;
+}
+
+table .jauge{
+    align-items: center;
+    display: flex;
+    height: 20px;
+    justify-content: flex-start;
+    width: 200px;
+    background-color: #D9D9D9;
+    border-radius: 12px;
+    border:1px solid black;
+}
+
+table .rectvert1{
+    border-radius: 12px;
+    width: 100px;
+    height: 20px;
+    background-color: #8C924F;
+}
+
+table .rectvert2{
+    border-radius: 12px;
+    width: 150px;
+    height: 20px;
+    background-color: #8C924F;
+}
+
+table .rectvert3{
+    border-radius: 12px;
+    width: 60px;
+    height: 20px;
+    background-color: #8C924F;
+}
+
+table ul,table tr{
+    padding: 0px;
+    margin: 0;
+}
+
+table ul{
+
+}
+
 
 .liresuite{
     display: flex;
