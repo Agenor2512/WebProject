@@ -9,24 +9,30 @@
 </head>
 <body>
     <header>
-        <div id="logo">
-            <div id="ellipse"></div>
-            <img src="/logo_fruit.svg" alt="logo du site">
-        </div>
-        <ul class="nav">
-            <li id="recette"><a href="#">Recette</a></li>
-            <li id="decouverte"><a href="#">Découverte</a></li>
-            <li id="accueil"><a href="./accueil">Accueil</a></li>
-        </ul>
+
+
+        <nav>
+
+            <ul id="liste">
+              <li class="lielements"><a href="recettes.html" class="liensListe">Recettes</a></li>
+              <li class="lielements"><a href="#" class="liensListe">Découverte</a></li>
+              <li class="lielements"><a href="index.html" class="liensListe">Accueil</a></li>
+            </ul>
+
+        </nav>
+
+      <div class="ellipse"><img src="./Images/logo_fruit.svg" class="logo" alt="Logo"></img></div>
+
     </header>
+
     <h1>Nos recettes à base d'ingredients rares!</h1>
     <div class="recette">
-        <img src="./veggieburger.jpg" alt="photo d'une recette">
+        <img src="./Images/veggieburger.jpg" alt="photo d'une recette">
         <table>
             <caption>nom du plat</caption>
             <tbody>
                 <tr>
-                    <td rowspan="3">
+                    <td class="tablelist" rowspan="3">
                         <ul>
                             <li>ingredient 1</li>
                             <li>ingredient 2</li>
@@ -59,8 +65,57 @@
                 </tr>
             </tbody>
         </table>
-        <div class="liresuite">    
-            <div class="traitnoir"></div><p>Lire la suite</p><div class="traitnoir"></div>
+        <div class="liresuite">
+            <div class="bande_liresuite">   
+                <div class="traitnoir"></div><p>Lire la suite</p><div class="traitnoir"></div>
+            </div>
+            <p class="description">c'est super bon!!</p>
+        </div>
+    </div>
+    <div class="recette">
+        <img src="./Images/veggieburger.jpg" alt="photo d'une recette">
+        <table>
+            <caption>nom du plat</caption>
+            <tbody>
+                <tr>
+                    <td class="tablelist" rowspan="3">
+                        <ul>
+                            <li>ingredient 1</li>
+                            <li>ingredient 2</li>
+                            <li>ingredient 3</li>
+                            <li>ingredient 4</li>
+                        </ul>
+                    </td>
+                    <td>vitamine B :</td>
+                    <td>
+                        <div class="jauge">
+                            <div class="rectvert1"></div>
+                        </div>    
+                    </td>
+                </tr>
+                <tr>
+                    <td>fer :</td>
+                    <td>
+                        <div class="jauge">
+                            <div class="rectvert2"></div>
+                        </div> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>vitamine c :</td>
+                    <td>
+                        <div class="jauge">
+                            <div class="rectvert3"></div>
+                        </div> 
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="liresuite">
+            <div class="bande_liresuite">   
+                <div class="traitnoir"></div><p>Lire la suite</p><div class="traitnoir"></div>
+            </div>
+            <p class="description">c'est super bon!!</p>
         </div>
     </div>
     <footer>
