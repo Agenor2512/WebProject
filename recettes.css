@@ -50,12 +50,16 @@ header {
   transform: rotate(-23deg);
 }
 
+nav {
+  padding-top: 15px;
+}
+
 #liste {
   display: block;
   list-style-type: none;
   font-size: 20px;
   font-family: "Poppins", sans-serif;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 #liste:hover .lielements {
@@ -71,7 +75,6 @@ header {
 
 #liste .lielements:last-child .liensListe {
   background: rgba(159, 77, 40, 1);
-  padding-right: 10px !important;
 }
 
 .lielements {
@@ -82,11 +85,21 @@ header {
   text-decoration: none;
   color: white;
   font-weight: bold;
-  padding: 5px;
-  padding-left: 10px;
-  padding-right: 40px;
+  padding: 5px 42px;
   background: rgba(188, 131, 105, 0.9);
   border-radius: 20px;
+}
+
+.translate {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.translate img {
+  width: 30px;
+  margin-right: 25px;
 }
 
 .homeText {
@@ -169,6 +182,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  width: 400px;
 }
 
 .read_all_recipe {

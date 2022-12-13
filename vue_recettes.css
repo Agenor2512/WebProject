@@ -90,6 +90,18 @@ header {
   border-radius: 20px;
 }
 
+.translate {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.translate img {
+  width: 30px;
+  margin-right: 25px;
+}
+
 .all_container {
   display: flex;
   flex-direction: row;
