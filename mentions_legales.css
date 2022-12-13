@@ -11,6 +11,12 @@ body{
   padding: 0;
 }
 
+article{
+  width: 900px;
+  margin-left: 400px
+
+}
+
 .sommaire {
   text-align: justify;
 }
