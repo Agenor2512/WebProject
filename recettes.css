@@ -100,6 +100,8 @@ nav {
 .translate img {
   width: 30px;
   margin-right: 25px;
+  background: white;
+  border-radius: 5px;
 }
 
 .homeText {
