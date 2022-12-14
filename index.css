@@ -10,7 +10,7 @@ html, body{
 }
 
 body{
-  background-image: url("img/papier.png");
+  background-image: url("Images/papier.png");
   background-size: cover;
   position: absolute;
   background-repeat: no-repeat;
@@ -22,7 +22,7 @@ body{
 .en-tête {
   height: 350px;
   box-shadow: 0px 4px 4px #1c1a19;
-  background-image: url(img/banniere.jpg);
+  background-image: url(Images/banniere.jpg);
   background-size: 100%;
 }
 
