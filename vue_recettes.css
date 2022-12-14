@@ -18,6 +18,8 @@ body {
   background-attachment: fixed;
 }
 
+/** Header, logo et nvigation **/
+
 header {
   display: flex;
   flex-direction: row-reverse;
@@ -90,6 +92,7 @@ nav {
   background: rgba(188, 131, 105, 0.9);
   border-radius: 20px;
 }
+
 .translate {
   display: flex;
   flex-direction: column;
@@ -104,6 +107,8 @@ nav {
   border-radius: 5px;
 }
 
+/** Corps de la page **/
+/*Conteneurs et textes */
 .all_container {
   display: flex;
   flex-direction: row;
@@ -137,6 +142,7 @@ nav {
   border-color: white;
 }
 
+/* Photos des plats aux dimensions revues */
 #pizza {
   width: 250px;
 }
@@ -170,6 +176,7 @@ nav {
   border-radius: 20px;
 }
 
+/** Footer **/
 footer {
   display: flex;
   flex-direction: row;
@@ -183,6 +190,10 @@ footer a {
   color: grey;
   opacity: 90%;
 }
+
+/********************************************/
+/*              Responsive                  */
+/********************************************/
 
 @media only screen and (min-width: 780px)
 and (orientation: portrait) {
