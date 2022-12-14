@@ -26,27 +26,25 @@ body{
   background-size: 100%;
 }
 
-.logo{
+.logo {
+  position: relative;
+  left: 60px;
   top: -5px;
-  width: : 150px;
-  height: 180px;
-  position: absolute;
+  width: 175px;
+  border-radius: 50px;
   z-index: 1;
-
+  transform: rotate(-38deg)
 }
 
 .ellipse {
-  position: absolute;
-
-  left: -50px;
-  top: -10px;
-  height: 175px;
-  width: 190px;
-  background-color: #ffffff;
-  border-radius: 80%;
-  opacity: 70%;
-  transform: rotate(-23deg);
-
+  position: relative;
+  top: -25px;
+  left: -70px;
+  height: 275px;
+  width: 250px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  transform: rotate(38deg);
 }
 
 .banniere{
@@ -268,8 +266,22 @@ tfoot {
 
 }
 
+.translate {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
 
-@media only screen and (max-device-width: 375px) and (orientation: portrait)
+.translate img {
+  width: 30px;
+  margin-right: 25px;
+  background: white;
+  border-radius: 5px;
+}
+
+
+@media only screen and (max-device-width: 780px) and (orientation: portrait)
 {
   body{
     width: 100%
@@ -391,5 +403,71 @@ tfoot {
     position: relative;
     top: 200px;
     font-size: 10px;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    position: fixed;
+    background-image: url("./Images/banniere.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 140px;
+  }
+
+  .ellipse {
+    position: relative;
+    top: 10px;
+    left: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  #liste {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  #liste .lielements, .lielements:last-child{
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2px;
+  }
+
+.liensListe {
+    width: 150px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    background: rgba(159, 77, 40, 1);
+  }
+
+  .translate {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  .translate img {
+    width: 30px;
+    margin-right: 5px;
+    background: white;
+    border-radius: 5px;
+  }
+
+  nav {
+    padding-top: 0px;
+    height: 120px;
   }
 }
