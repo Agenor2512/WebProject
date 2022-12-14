@@ -307,16 +307,6 @@ and (orientation: portrait) {
     height: 140px;
   }
 
-  /* .logo {
-    position: relative;
-    top: 180px;
-    left: 440px;
-    width: 100px;
-    border-radius: 50px;
-    z-index: 1;
-    transform: rotate(23deg)
-  } */
-
   .ellipse {
     position: relative;
     top: 10px;
@@ -326,7 +316,6 @@ and (orientation: portrait) {
     justify-content: center;
     align-items: flex-start;
   }
-
 
   .decoPictures {
     flex-direction: column;
