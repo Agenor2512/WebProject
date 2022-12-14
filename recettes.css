@@ -311,7 +311,7 @@ footer a {
 /*              Responsive                  */
 /********************************************/
 
-@media only screen and (min-width: 780px)
+@media only screen and (max-device-width: 390px)
 and (orientation: portrait) {
 
   header {
@@ -399,4 +399,12 @@ and (orientation: portrait) {
     height: 120px;
   }
 
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+    margin-left: 10px;
+  }
 }
