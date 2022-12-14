@@ -2,7 +2,7 @@
 
 body{
   font-family: "Poppins";
-  background-image: url("img/papier.png");
+  background-image: url("../img/papier.png");
   background-size: cover;
   position: absolute;
   background-repeat: no-repeat;
@@ -21,8 +21,7 @@ article{
   position: relative;
   top: -300px;
   width: 800px;
-  margin: 600px;
-
+  margin:600px;
 }
 
 .sommaire {
@@ -33,6 +32,7 @@ article{
   text-decoration: none;
   color: #000;
 }
+
 
 
 
@@ -63,6 +63,10 @@ article{
   font-size: 12px;
   left: 0px;
   position: relative;
+}
+
+footer{
+  height: 0;
 }
 
 }
