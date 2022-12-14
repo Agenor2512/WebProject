@@ -88,9 +88,9 @@ nav{
 }
 
 footer{
-    position:relative;
-    bottom: 8px;
-    left:8px;
+   position: relative;
+   margin-left: 20px;
+   margin-bottom: 20px;
 }
 
 .recette{
@@ -103,7 +103,7 @@ footer{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 50%;
     border-radius: 10px;
 }
 
@@ -120,7 +120,7 @@ h1{
 }
 
 table{
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -156,23 +156,8 @@ table .jauge{
     border:1px solid black;
 }
 
-table .rectvert1{
+table .rectvert{
     border-radius: 12px;
-    width: 100px;
-    height: 20px;
-    background-color: #8C924F;
-}
-
-table .rectvert2{
-    border-radius: 12px;
-    width: 150px;
-    height: 20px;
-    background-color: #8C924F;
-}
-
-table .rectvert3{
-    border-radius: 12px;
-    width: 60px;
     height: 20px;
     background-color: #8C924F;
 }
@@ -180,11 +165,8 @@ table .rectvert3{
 table ul,table tr{
     padding: 0px;
     margin: 0;
+    text-align: left;
 }
-
-/* table ul{
-    
-} */
 
 .liresuite{
     display: flex;
@@ -207,6 +189,9 @@ table ul,table tr{
 
 .liresuite .description{
     display: none;
+    border-radius: 12px;
+    background: rgba(188, 131, 105, 0.5);
+    padding: 20px;
 }
 
 .liresuite:hover .description{
