@@ -421,6 +421,8 @@ tfoot {
     position: relative;
     top: 10px;
     left: 45%;
+    width: 100px;
+    height: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -444,7 +446,7 @@ tfoot {
   }
 
 .liensListe {
-    width: 150px;
+    width: 100px;
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
