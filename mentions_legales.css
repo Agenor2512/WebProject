@@ -17,6 +17,13 @@ h1{
   font-size: 32px;
 }
 
+a img{
+  position: absolute;
+  width: 50px;
+  top: 10px;
+  left: 10px;
+}
+
 article{
   position: relative;
   top: -300px;
