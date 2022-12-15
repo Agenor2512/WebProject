@@ -77,4 +77,12 @@ footer{
   height: 0;
 }
 
+a img{
+  position: absolute;
+  width: 20px;
+  top: 10px;
+  left: 10px;
+}
+
+
 }
