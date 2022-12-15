@@ -143,7 +143,7 @@ table caption{
     font-family: 'Petit Formal Script';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 2vmax;
     margin-bottom: 10px;
 }
 
@@ -241,8 +241,8 @@ and (orientation: portrait) {
 
     .ellipse {
         position: relative;
-        top: 0px;
-        left: 15%;
+        top: 5px;
+        left: 5px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -314,4 +314,68 @@ and (orientation: portrait) {
         height: 120px;
     }
 
+    h1{
+        width: 100%;
+        font-size: 2.5vmax;
+        text-align: center;
+    }
+
+    .recette{
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    table{
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    table caption{
+        font-family: 'Petit Formal Script';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2vmax;
+        margin-bottom: 10px;
+    }
+
+    table td{
+        font-family: 'Inter';
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 20px;
+        text-align: right;
+    }
+
+    table .tablelist{
+        padding-right: 0px;
+    }
+
+    table .jauge{
+        align-items: center;
+        display: flex;
+        height: 20px;
+        justify-content: flex-start;
+        width: 2vmax;
+        background-color: #D9D9D9;
+        border-radius: 12px;
+        border:1px solid black;
+    }
+
+    table .rectvert{
+        border-radius: 12px;
+        height: 20px;
+        background-color: #8C924F;
+    }
+
+    table ul,table tr{
+        padding: 0px;
+        margin: 0;
+        text-align: left;
+    }
+
+    .liresuite .description{
+        display: inline;
+    }
 }
