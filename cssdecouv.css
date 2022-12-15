@@ -241,8 +241,8 @@ and (orientation: portrait) {
 
     .ellipse {
         position: relative;
-        top: 10px;
-        left: 45%;
+        top: 0px;
+        left: 15%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -265,13 +265,24 @@ and (orientation: portrait) {
         padding: 2px;
     }
 
+    .logo {
+        position: relative;
+        left: 30px;
+        top: -5px;
+        width: 100px;
+        border-radius: 50px;
+        z-index: 1;
+        transform: rotate(23deg)
+      }
+
     .liensListe {
-        width: 150px;
+        width: 100px;
         padding: 5px;
         padding-left: 10px;
         padding-right: 10px;
         text-align: center;
         background: rgba(159, 77, 40, 1);
+        font-size: 12px;
     }
 
     .translate {
@@ -281,6 +292,16 @@ and (orientation: portrait) {
         align-items: flex-start;
     }
 
+    #liste:hover .lielements {
+        display: inline-block;
+        margin-right: -40px;
+    }
+    
+    #liste:hover .lielements {
+        display: inline-block;
+        margin-right: 0px;
+    }
+    
     .translate img {
         width: 30px;
         margin-right: 5px;
